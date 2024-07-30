@@ -63,7 +63,7 @@ header {
 }
 
 .logo img {
-  width: 70%;
+  width: 4.5rem;
 }
 
 .navbar-nav a {
@@ -90,8 +90,11 @@ header {
 .bottom-row .row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-
+.arrow_ {
+  margin-left: 5px !important;
+}
 .main-nav ul {
   display: flex;
   align-items: center;
@@ -106,7 +109,7 @@ header {
   color: #14141e;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 16spx;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
@@ -117,7 +120,7 @@ header {
   border: 1px solid #013665;
   color: #000;
   border-radius: 6px;
-  padding: 11px 30px;
+  padding: 11px 48px;
   margin-left: 9px;
 }
 
@@ -147,13 +150,14 @@ section.banenr-sec .container-fluid {
 section.banenr-sec .row {
   display: flex;
   align-items: center;
+  margin-top: -3rem;
 }
 
 .banner-txt h4 {
-  font-size: 65px;
+  font-size: 63px;
   line-height: 80px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 550;
 }
 
 .banner-txt p {
@@ -161,17 +165,19 @@ section.banenr-sec .row {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 32px;
+  color: grey;
 }
 
 .banner-txt a {
   color: #fff;
   background: #013665;
-  padding: 7px 20px;
+  padding: 12px 68px;
   display: inline-block;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 section.monetize-sec {
@@ -4035,6 +4041,7 @@ section.advert-partner {
 
   .banner-txt p {
     font-size: 17px;
+    margin-top: 1rem !important ;
   }
 
   .monetize-title h4 {
@@ -4471,6 +4478,7 @@ section.advert-partner {
 
   section.banenr-sec .row {
     flex-direction: column-reverse;
+    margin-top: -8rem !important;
   }
 
   section.companies-sec .container ul {
@@ -4580,6 +4588,7 @@ section.advert-partner {
   .banner-txt h4 {
     font-size: 35px;
     line-height: 40px;
+    margin-bottom: 1.5rem;
   }
 
   .banner-backg img {
